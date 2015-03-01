@@ -1,0 +1,310 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+
+	background: rgba(147,206,222,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147,206,222,1)), color-stop(15%, rgba(117,189,209,0.93)), color-stop(100%, rgba(0,142,166,0.5))), url('/fulldesign/images/bg.jpg');
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
+	background: -o-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
+	background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
+	background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#008ea6', GradientType=1 ), url('/fulldesign/images/bg.jpg');
+	background-size: cover;
+}
+
+.hero > div {
+	background-color: transparent;
+	width: 960px;
+	margin: 0 auto;
+	height: 400px;
+	position: relative;
+}
+
+/*
+* === Header ===
+*/
+
+header {
+	background-color: transparent;
+	height: 125px;
+	position: relative;
+	top: 0;
+	margin: 0 auto;
+}
+
+.logo {
+	color: white;
+	position: absolute;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+/*
+* — Search Form —
+*/
+
+.search-form {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+
+.search-form input {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.search-form button {
+	border: 1px;
+	background-color: #ED4D1F;
+	color: white;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+
+/*
+* — Navigation —
+*/
+
+nav {
+	position: absolute;
+	bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid rgba(246, 250, 250, 0.7);
+	border-bottom: 1px solid rgba(246, 250, 250, 0.7);
+}
+
+nav a {
+	font-size: 14px;
+	padding-left: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: white;
+	text-decoration: none;
+	color: rgba(246, 250, 250, 1);
+}
+
+/*
+* — Section —
+*/
+
+section {
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+section h1 {
+	font-size: 30pt;
+	font-weight: 300;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*
+* === Primary Content ===
+*/
+
+.primary {
+	background-color: #D7E1E7;
+}
+
+.primary > div {
+	background-color: #D7E1E7;
+	width: 960px;
+	margin: 0 auto;
+	height: 730px;
+	position: relative;
+}
+
+.box {
+	box-shadow: 0 0 20px -20px #000;
+	background-color: #fff;
+}
+
+/*
+* -- Breakouts --
+*/
+
+.breakouts {
+	background-color: #D7E1E7;
+	text-align: center;
+	padding: 3px;
+}
+
+.breakouts div {
+	width: 300px;
+	min-height: 160px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 10px;
+	transform: translateY(-15px);
+}
+
+.breakouts p {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.breakouts strong {
+	font-weight: 900;
+	padding-top: 10px;
+}
+
+.breakouts button {
+	position: absolute;
+	bottom: 10px;
+	transform: translate(-50%);
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.breakouts div:first-child {
+	border-top: 3px solid #ED4D1F;
+}
+
+.breakouts div:nth-child(2){
+	border-top: 3px solid #8BD053;
+}
+
+.breakouts div:last-child {
+	border-top: 3px solid #008ED1;
+}
+
+.breakouts div:first-child  button {
+	border: 2px solid #ED4D1F;
+	color: #ED4D1F;
+}
+
+.breakouts div:nth-child(2) button {
+	border: 2px solid #8BD053;
+	color: #8BD053;
+}
+
+.breakouts div:last-child button {
+	border: 2px solid #008ED1;
+	color: #008ED1;
+}
+
+/*
+* == Primary Content ==
+*/
+
+.primary-content {
+	background-color: #fff;
+	height: 525px;
+	overflow: hidden;
+}
+
+.primary-content aside {
+	width: 400px;
+	height: 486px;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/*
+* -- The listing on the left side of primary content --
+*/
+
+aside > div {
+	background-color: #E8F3F9;
+	overflow: hidden;
+	height: 75px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+aside img {
+	height: 75px;
+	width: 80px;
+	float: left;
+}
+
+.listing div {
+	margin-left: 80px;
+	background-color: #E8F3F9;
+	padding-left: 10px;
+	padding-right: 2px;
+}
+
+aside span {
+	padding-bottom: 2px;
+	color: #008ED1;
+	font-size: 20px;
+}
+
+aside p {
+	margin: 0;
+}
+
+/*
+* -- The tiles on the right side of primary content --
+*/
+
+main {
+	margin-left: 400px;
+	width: 600px;
+	height: 500px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+main > div {
+	background-color: #8BD053;
+	width: 150px;
+	padding: 0;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+main img {
+	width: 150px;
+	height: 150px;
+}
+
+main span {
+	width: 150px;
+	display: inline-block;
+	background-color: #8BD053;
+	color: #3B6512;
+}
+
+main p {
+	padding: 0;
+	margin: 0;
+	background-color: #E2EFD8;
+	color: #3B6512;
+}
