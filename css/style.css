@@ -5,13 +5,13 @@ body {
 .hero {
 
 	background: rgba(147,206,222,1);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147,206,222,1)), color-stop(15%, rgba(117,189,209,0.93)), color-stop(100%, rgba(0,142,166,0.5))), url('/fulldesign/images/bg.jpg');
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
-	background: -o-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
-	background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
-	background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('/fulldesign/images/bg.jpg');
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#008ea6', GradientType=1 ), url('/fulldesign/images/bg.jpg');
+	background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('images/bg.jpg');
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147,206,222,1)), color-stop(15%, rgba(117,189,209,0.93)), color-stop(100%, rgba(0,142,166,0.5))), url('images/bg.jpg');
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('images/bg.jpg');
+	background: -o-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('images/bg.jpg');
+	background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('images/bg.jpg');
+	background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,0.93) 15%, rgba(0,142,166,0.5) 100%), url('images/bg.jpg');
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#008ea6', GradientType=1 ), url('images/bg.jpg');
 	background-size: cover;
 }
 
